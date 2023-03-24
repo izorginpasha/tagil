@@ -1,0 +1,16 @@
+.place__conteiner{
+    display: grid;
+    gap: 26px;
+    height: fit-content;
+}
+@media screen and (max-width: 768px){
+    .place__conteiner{
+        gap: 25px;
+    }
+}
+@media screen and (max-width: 385px){
+    .place__conteiner{
+        padding: 0px 16px;
+        
+}
+}

@@ -1,0 +1,30 @@
+.cover{
+    display: grid;
+    max-width: 100%;
+    min-height: 740px;
+    background-image: url(../../images/__background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    margin: 0px 48px;
+    position: relative;  
+}
+@media screen and (max-width: 1024px){
+    .cover{
+        margin: 0px;
+        min-height: 640px;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 768px){
+    .cover{
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cover{
+        min-height: 200px;
+    }
+}

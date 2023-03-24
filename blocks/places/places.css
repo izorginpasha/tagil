@@ -1,0 +1,23 @@
+.places{
+    max-width: 100%;
+    display: grid;
+    gap: 80px;
+    padding: 0px 148px;
+}
+@media screen and (max-width: 1024px){
+    .places{
+        padding: 0px 48px;
+    }
+}
+@media screen and (max-width: 768px){
+    .places{
+        gap: 73px;
+        padding: 0px 24px;
+    }
+}
+@media screen and (max-width: 385px){
+    .places{
+        gap: 50px;
+        padding: 0px;
+    }
+}

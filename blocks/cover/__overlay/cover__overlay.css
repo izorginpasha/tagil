@@ -1,0 +1,30 @@
+.cover__overlay{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42,44,47,0.3);
+    text-decoration: none;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+    align-content: center;   
+}
+.cover__overlay:hover{
+    transition: background-color 1s ease 0s;
+    background-color: rgba(42,44,47,0.8);
+}
+@media screen and (max-width: 1024px){
+    .cover__overlay{
+        width: 100%;
+        
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    .cover__overlay{
+        width: 100%;
+        
+    }
+    
+}

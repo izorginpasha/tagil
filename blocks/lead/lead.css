@@ -1,0 +1,19 @@
+.lead{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 148px 0px 148px;
+    
+    
+}
+@media screen and (max-width: 1024px){
+    .lead{
+        padding: 0px 48px 0px 48px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .lead{
+        padding: 0px;
+    }
+    
+}
